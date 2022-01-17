@@ -1,0 +1,81 @@
+
+
+<h1 id="tableLabel">Sales</h1>
+
+<p>This component demonstrates fetching sales data from the server.</p>
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card">
+      <div class="card-header">
+        Filter
+      </div>
+      <div class="card-body">
+        <div class="form-group row">
+          <label class="col-md-3 col-form-label" for="project-select">StoreId</label>
+          <div class="col-md-4">
+            <input type="text" class="form-control" [(ngModel)]="model.storeId" placeholder="Store Id">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-3 col-form-label" for="grup-select">orderStatus</label>
+          <div class="col-md-5">
+            <select [(ngModel)]="model.orderStatus" class="form-control">
+              <option value="NotCompleted">Not Completed</option>
+              <option value="Completed">Completed</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-3 col-form-label">invoiceStatus</label>
+          <div class="col-md-4">
+            <select [(ngModel)]="model.invoiceStatus" class="form-control">
+              <option value="0">Not Invoiced</option>
+              <option value="1">Invoiced</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="form-group form-actions">
+          <button type="button" class="btn btn-primary" (click)="getSales()">List Sales</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p *ngIf="!sales"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="sales">
+  <thead>
+    <tr>
+      <th>Store Id</th>
+      <th>Product Name</th>
+      <th>Sale Order Product Count</th>
+      <th>Amount</th>
+      <th>invoice Status</th>
+      <th>Order Status</th>
+      <th>Order Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sale of sales">
+      <td>{{ sale.storeId }}</td>
+      <td>{{ sale.product.name }}</td>
+      <td>{{ sale.orderProductCount }}</td>
+      <td>{{ sale.amount }}</td>
+      <td>{{ sale.invoiceStatus }}</td>
+      <td>{{ sale.orderStatus }}</td>
+      <td>{{ sale.orderTime }}</td>
+    </tr>
+  </tbody>
+  <tbody *ngIf="sales?.length == 0">
+    <tr>
+      <td colspan="7" class="no-data-available text-center">Record not found</td>
+    </tr>
+  </tbody>
+</table>

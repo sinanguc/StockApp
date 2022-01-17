@@ -1,0 +1,637 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.WebApi\\Assessment.Stock.WebApi.csproj": {}
+  },
+  "projects": {
+    "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj",
+        "projectName": "Assessment.Common",
+        "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[5.13.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj",
+        "projectName": "Assessment.Dto",
+        "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj",
+        "projectName": "Assessment.Enum",
+        "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Business\\Assessment.Stock.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Business\\Assessment.Stock.Business.csproj",
+        "projectName": "Assessment.Stock.Business",
+        "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Business\\Assessment.Stock.Business.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.DataAccess\\Assessment.Stock.DataAccess.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.DataAccess\\Assessment.Stock.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj",
+        "projectName": "Assessment.Stock.Core",
+        "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.DataAccess\\Assessment.Stock.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.DataAccess\\Assessment.Stock.DataAccess.csproj",
+        "projectName": "Assessment.Stock.DataAccess",
+        "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.DataAccess\\Assessment.Stock.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Common\\Assessment.Common.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Core\\Assessment.Stock.Core.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\Assessment.Stock.Entities.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\Assessment.Stock.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\Assessment.Stock.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\Assessment.Stock.Entities.csproj",
+        "projectName": "Assessment.Stock.Entities",
+        "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\Assessment.Stock.Entities.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.WebApi\\Assessment.Stock.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.WebApi\\Assessment.Stock.WebApi.csproj",
+        "projectName": "Assessment.Stock.WebApi",
+        "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.WebApi\\Assessment.Stock.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
+        "outputPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Dto\\Assessment.Dto.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\BuildingBlocks\\Assessment.Enum\\Assessment.Enum.csproj"
+              },
+              "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Business\\Assessment.Stock.Business.csproj": {
+                "projectPath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Business\\Assessment.Stock.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

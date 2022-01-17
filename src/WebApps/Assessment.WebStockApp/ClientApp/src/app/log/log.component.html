@@ -1,0 +1,59 @@
+
+
+<h1 id="tableLabel">Request Response Logs</h1>
+
+<p>This component demonstrates fetching Request Response Logs data from the server.</p>
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card">
+      <div class="card-header">
+        Filter
+      </div>
+      <div class="card-body">
+
+        <div class="form-group row">
+          <label class="col-md-3 col-form-label">Log Type</label>
+          <div class="col-md-4">
+            <select [(ngModel)]="model.logType" class="form-control">
+              <option value="Response">Response</option>
+              <option value="Request">Request</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="form-group form-actions">
+          <button type="button" class="btn btn-primary" (click)="getLogs()">List Logs</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p *ngIf="!logs"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="logs">
+  <thead>
+    <tr>
+      <th>Log Id</th>
+      <th>Log Type</th>
+      <th>Record Time</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let log of logs">
+      <td>{{ log.id }}</td>
+      <td>{{ log.logType }}</td>
+      <td>{{ log.recordTime }}</td>
+      <td>{{ log.data }}</td>
+    </tr>
+  </tbody>
+  <tbody *ngIf="logs?.length == 0">
+    <tr>
+      <td colspan="4" class="no-data-available text-center">Record not found</td>
+    </tr>
+  </tbody>
+</table>

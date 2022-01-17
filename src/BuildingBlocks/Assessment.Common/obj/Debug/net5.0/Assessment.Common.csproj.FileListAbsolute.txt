@@ -1,0 +1,17 @@
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Common.deps.json
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Common.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\ref\Assessment.Common.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Common.pdb
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.csproj.AssemblyReference.cache
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.AssemblyInfoInputs.cache
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.AssemblyInfo.cs
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.csproj.CoreCompileInputs.cache
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\ref\Assessment.Common.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.pdb
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Dto.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Enum.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Dto.pdb
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\bin\Debug\net5.0\Assessment.Enum.pdb
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Common\obj\Debug\net5.0\Assessment.Common.csproj.CopyComplete

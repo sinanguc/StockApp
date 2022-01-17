@@ -1,0 +1,12 @@
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\bin\Debug\net5.0\Assessment.Stock.Entities.deps.json
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\bin\Debug\net5.0\Assessment.Stock.Entities.dll
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\bin\Debug\net5.0\ref\Assessment.Stock.Entities.dll
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\bin\Debug\net5.0\Assessment.Stock.Entities.pdb
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.csproj.AssemblyReference.cache
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.AssemblyInfoInputs.cache
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.AssemblyInfo.cs
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.csproj.CoreCompileInputs.cache
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.dll
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\ref\Assessment.Stock.Entities.dll
+G:\StockMountAssessment\src\Services\Stock\Assessment.Stock.Entities\obj\Debug\net5.0\Assessment.Stock.Entities.pdb

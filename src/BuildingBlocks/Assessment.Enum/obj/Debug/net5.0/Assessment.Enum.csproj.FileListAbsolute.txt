@@ -1,0 +1,12 @@
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\bin\Debug\net5.0\Assessment.Enum.deps.json
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\bin\Debug\net5.0\Assessment.Enum.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\bin\Debug\net5.0\ref\Assessment.Enum.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\bin\Debug\net5.0\Assessment.Enum.pdb
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.GeneratedMSBuildEditorConfig.editorconfig
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.AssemblyInfoInputs.cache
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.AssemblyInfo.cs
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.csproj.CoreCompileInputs.cache
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\ref\Assessment.Enum.dll
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.pdb
+G:\StockMountAssessment\src\BuildingBlocks\Assessment.Enum\obj\Debug\net5.0\Assessment.Enum.csproj.AssemblyReference.cache

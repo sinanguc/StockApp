@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uZ2SFwFH3ZPm+hgywYVFgqPLRX7SXt+YIddXAWaR5qlB1cVgiAGDq3HdevCbpvCj3oS39hQ2JYUMA09XWkPb+A==",
+  "success": true,
+  "projectFilePath": "G:\\StockMountAssessment\\src\\Services\\Stock\\Assessment.Stock.Entities\\Assessment.Stock.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sinan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.13\\microsoft.entityframeworkcore.abstractions.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

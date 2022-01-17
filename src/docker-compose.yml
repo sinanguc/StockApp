@@ -1,0 +1,99 @@
+version: '3.4'
+
+services:
+  loggerdb:
+    image: mongo
+    container_name: loggerdb
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - stocknetwork
+
+  tokendb:
+    image: redis:alpine
+    container_name: tokendb
+    restart: always
+    ports:
+      - "6380:6379"
+    networks:
+      - stocknetwork
+
+  stockdb:
+    image: postgres
+    container_name: stockdb
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin1234
+      - POSTGRES_DB=Stock
+    restart: always
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    networks:
+      - stocknetwork
+
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    restart: always
+    ports:
+      - "8080:8000"
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+  assessment.Stock.webapi:
+    image: ${DOCKER_REGISTRY-}assessmentstockwebapi
+    build:
+      context: .
+      dockerfile: Services/Stock/Assessment.Stock.WebApi/Dockerfile
+    container_name: assessment.Stock.webapi
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:Provider=PostgreSQL"
+      - "ConnectionStrings:DefaultConnection=Server=stockdb;Port=5433;Database=Stock;User Id=admin;Password=admin1234;"
+      - "MongoConfiguration:ConnectionString=mongodb://loggerdb:27018"
+      - "RedisConfiguration:ConnectionString=tokendb:6380"
+    depends_on:
+      - loggerdb
+      - tokendb
+      - stockmountdb
+    links:
+      - loggerdb
+      - tokendb
+      - stockmountdb
+    ports:
+      - "8001:80"
+    networks:
+      - stocknetwork
+
+  assessment.webstockapp:
+    image: ${DOCKER_REGISTRY-}assessmentwebstockapp
+    build:
+      context: .
+      dockerfile: WebApps/Assessment.WebStockApp/Dockerfile
+    container_name: assessment.webstockapp
+    restart: always
+    environment:
+      - WebApiUrl=http://assessment.Stock.webapi
+    ports:
+      - "8002:80"
+    networks:
+      - stocknetwork
+
+
+volumes:
+  mongo_data:
+  portainer_data:
+  postgres_data:
+
+
+networks:
+  stocknetwork:
+    driver: bridge 
