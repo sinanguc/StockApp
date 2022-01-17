@@ -63,11 +63,11 @@ services:
     depends_on:
       - loggerdb
       - tokendb
-      - stockmountdb
+      - stockdb
     links:
       - loggerdb
       - tokendb
-      - stockmountdb
+      - stockdb
     ports:
       - "8001:80"
     networks:
